@@ -5,4 +5,5 @@ class Solution(object):
         :type friends: List[int]
         :rtype: List[int]
         """
-        pass
+        friends_set = set(friends)
+        return [x for x in order if x in friends_set]
