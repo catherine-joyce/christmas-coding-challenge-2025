@@ -12,3 +12,8 @@ def test_friends_25_outputs_52():
     friends = [2,5]
     assert solution.recoverOrder(order, friends) == [5,2]
 
+def test_friends_12_outputs_12():
+    solution = Solution()
+    order = [1,2,3]
+    friends = [1,2]
+    assert solution.recoverOrder(order, friends) == [1,2]
