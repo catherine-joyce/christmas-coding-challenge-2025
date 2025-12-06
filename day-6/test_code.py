@@ -13,3 +13,18 @@ def test_first_index_case_2():
     needle = "leeto"
     answer = solution.strStr(haystack, needle)
     assert answer == -1
+
+def test_first_index_case_3():
+    solution = Solution()
+    haystack = "mississippi"
+    needle = "issip"
+    answer = solution.strStr(haystack, needle)
+    assert answer == 4
+
+
+def test_first_index_case_4():
+    solution = Solution()
+    haystack = "a"
+    needle = "a"
+    answer = solution.strStr(haystack, needle)
+    assert answer == 0
