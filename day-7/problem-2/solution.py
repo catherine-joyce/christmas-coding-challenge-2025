@@ -6,7 +6,7 @@ class Solution(object):
         """
         new_string = ""
         for letter in s:
-            if letter.isalpha() and not letter.isspace() and ord(letter) <= 90:
+            if letter.isalpha() and ord(letter) <= 90:
                 new_letter_ord = ord(letter) + 32
                 new_string += chr(new_letter_ord)
             else:
