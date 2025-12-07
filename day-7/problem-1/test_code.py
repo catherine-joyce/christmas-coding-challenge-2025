@@ -7,6 +7,7 @@ def test_last_word_5():
     answer = solution.lengthOfLastWord(s)
     assert answer == 5
 
+
 def test_last_word_4():
     solution = Solution()
     s = "   fly me   to   the moon  "
