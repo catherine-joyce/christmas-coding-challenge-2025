@@ -1,4 +1,4 @@
-from solution import Solution
+from day3_solution import Solution
 
 
 def test_remove_duplicates():

@@ -1,4 +1,4 @@
-from solution import Solution
+from day7_problem1_solution import Solution
 
 
 def test_last_word_5():

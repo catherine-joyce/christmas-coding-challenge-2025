@@ -1,4 +1,4 @@
-from solution import Solution
+from day6_problem1_solution import Solution
 
 
 def test_first_index():

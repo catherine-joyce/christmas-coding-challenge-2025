@@ -1,4 +1,4 @@
-from solution import Solution
+from day4_problem2_solution import Solution
 
 
 def test_max_3():

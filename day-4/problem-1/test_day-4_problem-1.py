@@ -1,4 +1,4 @@
-from solution import Solution
+from day4_problem1_solution import Solution
 
 
 def test_find_9():

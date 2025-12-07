@@ -5,11 +5,11 @@ class Solution:
         for i in range(len(nums)):
             num = nums[i]
             if i == (len(nums) - 1):
-                if nums[i] == nums[i-1]:
+                if nums[i] == nums[i - 1]:
                     result ^= num ^ num
                 else:
                     result ^= num
-            elif nums[i] == nums[i-1] or nums[i] == nums[i+1]:
+            elif nums[i] == nums[i - 1] or nums[i] == nums[i + 1]:
                 result ^= num ^ num
             else:
                 result ^= num

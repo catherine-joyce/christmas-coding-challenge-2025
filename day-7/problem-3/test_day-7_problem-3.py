@@ -1,4 +1,4 @@
-from solution import Solution
+from day7_problem3_solution import Solution
 
 
 def test_add_binary_100():

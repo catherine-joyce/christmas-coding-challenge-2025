@@ -1,4 +1,4 @@
-from solution import Solution
+from day7_problem2_solution import Solution
 
 
 def test_all_lowercase():

@@ -1,4 +1,4 @@
-from solution import Solution
+from day5_solution import Solution
 
 
 def test_reverse_letters():

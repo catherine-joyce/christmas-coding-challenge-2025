@@ -1,4 +1,4 @@
-from solution import Solution
+from day6_problem2_solution import Solution
 
 
 def test_missing_number_1():

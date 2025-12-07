@@ -1,4 +1,4 @@
-from solution import Solution
+from day6_problem3_solution import Solution
 
 
 def test_generate_ranges():

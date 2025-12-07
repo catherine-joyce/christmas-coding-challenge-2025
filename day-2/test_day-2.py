@@ -1,4 +1,4 @@
-from solution import Solution
+from day2_solution import Solution
 
 
 def test_friends_134_outputs_314():
