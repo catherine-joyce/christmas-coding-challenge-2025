@@ -19,5 +19,5 @@ class Solution(object):
                 if target < nums[midpoint]:
                     high = midpoint - 1
                 else:
-                    low = midpoint + 1 
+                    low = midpoint + 1
         return index

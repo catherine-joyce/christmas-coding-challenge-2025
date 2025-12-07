@@ -1,9 +1,5 @@
-class Solution(object):
-    def missingNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def missingNumber(self, nums: list[int]) -> int:
         result = 0
         for i in range(len(nums) + 1):
             result ^= i

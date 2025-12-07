@@ -16,4 +16,4 @@ class Solution(object):
                 i += 1
             if not s[j].isalpha():
                 j -= 1
-        return ''.join(s)
+        return "".join(s)

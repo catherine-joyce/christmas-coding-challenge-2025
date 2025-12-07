@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+
         def get_number_of_positive_integers(nums):
             low = 0
             high = len(nums) - 1
@@ -12,15 +13,15 @@ class Solution(object):
             while low <= high:
                 midpoint = (high + low) // 2
                 if nums[midpoint] > 0 and nums[midpoint - 1] <= 0 and not found:
-                    num_pos_integers = len(nums[midpoint:len(nums)]) 
+                    num_pos_integers = len(nums[midpoint : len(nums)])
                     found = True
                 else:
                     if nums[midpoint] <= 0:
                         low = midpoint + 1
                     elif nums[midpoint] > 0:
-                        high = midpoint -1
+                        high = midpoint - 1
             return num_pos_integers
-        
+
         def get_number_of_negative_integers(nums):
             low = 0
             high = len(nums) - 1
@@ -29,16 +30,15 @@ class Solution(object):
             while low <= high:
                 midpoint = (high + low) // 2
                 if nums[midpoint] < 0 and nums[midpoint + 1] >= 0 and not found:
-                    num_neg_integers = len(nums[0:midpoint + 1])
-                    found = True 
+                    num_neg_integers = len(nums[0 : midpoint + 1])
+                    found = True
                 else:
                     if nums[midpoint] >= 0:
-                        high = midpoint -1
+                        high = midpoint - 1
                     elif nums[midpoint] < 0:
                         low = midpoint + 1
             return num_neg_integers
-                        
-        
+
         low = 0
         high = len(nums) - 1
         if (nums[low] > 0 and nums[high] > 0) or (nums[low] < 0 and nums[high] < 0):

@@ -1,9 +1,5 @@
-class Solution(object):
-    def toLowerCase(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
+class Solution:
+    def toLowerCase(self, s: str) -> str:
         new_string = ""
         for letter in s:
             if letter.isalpha() and ord(letter) <= 90:
@@ -12,5 +8,3 @@ class Solution(object):
             else:
                 new_string += letter
         return new_string
-        
-        
