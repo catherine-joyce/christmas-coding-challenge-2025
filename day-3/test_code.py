@@ -23,3 +23,11 @@ def test_remove_duplicates_case_3():
     answer = solution.removeDuplicates(nums)
     assert answer == 2
     assert nums[0:answer] == [0, 3]
+
+
+def test_remove_duplicates_case_4():
+    solution = Solution()
+    nums = [0, 0, 0, 1, 1, 1, 99]
+    answer = solution.removeDuplicates(nums)
+    assert answer == 3
+    assert nums[0:answer] == [0, 1, 99]
