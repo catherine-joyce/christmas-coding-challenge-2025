@@ -4,8 +4,8 @@ class Solution:
         new_string = ""
         for x in s:
             x = list(x)
-            i = 0 
-            j = len(x) -1 
+            i = 0
+            j = len(x) - 1
             while i < j:
                 x[i], x[j] = x[j], x[i]
                 i += 1
