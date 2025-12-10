@@ -1,9 +1,5 @@
-class Solution(object):
-    def reverseOnlyLetters(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
+class Solution:
+    def reverseOnlyLetters(self, s: str) -> str:
         i = 0
         j = len(s) - 1
         s = list(s)
