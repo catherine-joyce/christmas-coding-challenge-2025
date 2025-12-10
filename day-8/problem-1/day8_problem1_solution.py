@@ -5,5 +5,5 @@ class Solution:
         while i < j:
             s[i], s[j] = s[j], s[i]
             i += 1
-            j -=1
+            j -= 1
         return s
