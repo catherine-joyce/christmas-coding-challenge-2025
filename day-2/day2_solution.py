@@ -1,9 +1,4 @@
-class Solution(object):
-    def recoverOrder(self, order, friends):
-        """
-        :type order: List[int]
-        :type friends: List[int]
-        :rtype: List[int]
-        """
+class Solution:
+    def recoverOrder(self, order: list[int], friends: list[int]) -> list[int]:
         friends_set = set(friends)
         return [x for x in order if x in friends_set]
