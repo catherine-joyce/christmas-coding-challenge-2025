@@ -5,7 +5,7 @@ class Solution:
         j = len(int_string) - 1
         while i < j:
             if int_string[i] == int_string[j]:
-                i += 1 
+                i += 1
                 j -= 1
             else:
                 return False
